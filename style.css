@@ -1,0 +1,142 @@
+body{
+    background-color:smokewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > img
+{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    font-size: 1.5rem;
+    border: 5px solid black;
+    border-right:hidden;;
+    border-top:hidden;
+    text-align: left;
+    padding-left: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: darkgoldenrod;  
+    border-radius: 10px;  
+}
+
+nav li{
+    display: inline-block;
+    border: 5px solid black;
+    border-left: hidden;
+    border-top: hidden;
+}
+
+nav a:hover{
+    color:gold;
+    background-color: lightslategray;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-right:30px;
+}
+
+p:hover{
+    color:gold;
+    background-color: lightslategray;    
+}
+
+div img
+{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-top: hidden;
+}
+
+.first{
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.second{
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.third{
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fourth{
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fifth{
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sixth{
+    flex:1 1 50%;
+}
+
+.seventh{
+    flex:1 1 13%;
+    border: 5px solid black;
+    border-right: hidden;
+    border-top:hidden;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    justify-content: space-between;
+    margin-right:30px;
+    
+}
+
+footer{
+    display:flex;
+    flex:1 1 50%;
+}
